@@ -1,0 +1,9 @@
+.contact img{
+   border-radius: 50%;
+   height: 200px;
+   width: 80%;
+   margin-left: 20px;
+}
+.contact{
+    margin-bottom: 50px;
+}
