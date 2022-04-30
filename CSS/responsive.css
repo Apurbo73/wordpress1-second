@@ -1,0 +1,26 @@
+/* Responsiveness with media query*/
+@media only screen and (min-width:992px) and (max-width:1200px){
+    
+
+    .area{
+        width: 970px;
+     
+    }
+    .menu{
+        width: 650px;
+    }
+    .single-service{
+        width: 285px;
+    }
+    .about-left{
+       
+        width: 600px;
+       
+    
+    }
+    .about-menu{
+       
+        width:300px;
+      
+    }
+    }
