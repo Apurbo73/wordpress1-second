@@ -1,9 +1,52 @@
-.contact img{
-   border-radius: 50%;
-   height: 200px;
-   width: 80%;
-   margin-left: 20px;
+.style
+{
+    float: left;
 }
-.contact{
-    margin-bottom: 50px;
+.contact-form input
+{
+    width: 600px;
+    padding: 10px;
+    margin-bottom: 5px;
+    margin-right: 50px;
+    border: 1px solid #ddd;
+
+}
+.contact-form textarea{
+    width: 608px;
+    padding: 5px;
+    margin-bottom: 5px;
+    margin-right: 50px;
+    border: 1px solid #ddd;
+    height: 200px;
+
+}
+.contact-form input[type="submit"]{
+    background-color: rgb(113, 211, 250);
+    text-transform: uppercase;
+    width: auto;
+    transition: 0.3s;
+}
+
+.contact-form input[type="submit"]:hover {
+    background-color: crimson;
+}
+
+.contact-address{
+    font-size: 20px;
+}
+.contact-address li{
+    border-bottom: 2px solid rgb(218, 209, 209);
+    margin-bottom: 10px;
+    padding-bottom: 15px;
+}
+
+
+
+.map{
+    
+}
+.map iframe{
+    width: 100%;
+    height: 300px;
+    border: 2px solid rgb(156, 154, 154);
 }

@@ -6,6 +6,7 @@
 body{
     font-size: 14px;
     line-height: 22px;
+    background-color: rgb(248, 248, 231);
 }
 .area
 {
@@ -94,8 +95,10 @@ margin-left: 70px;
     text-decoration: none;
     color:rgb(53, 53, 131);
     display: block;
-    font-size: largef;
-    padding: 10px 15px;
+    font-size: larger;
+    padding: 0px 15px;
+   transition: .3s;
+   padding: 5px;
     
 }
 
@@ -103,7 +106,8 @@ margin-left: 70px;
     background-color: rgb(42, 109, 253);
     color: white;
     text-transform:uppercase;
-    transition: .3s;
+   
+   
 }
 .banner{}
 .banner img{
@@ -151,6 +155,8 @@ margin-left: 70px;
 
 }
 
+
+
 .single-service img{
 
 }
@@ -159,6 +165,14 @@ margin-left: 70px;
 }
 .single-service p{
     text-align: justify;    
+}
+
+.single-service:last-child, .courses-page .single-service:nth-child(3){
+    margin-right: 0;
+}
+.courses-page 
+{
+    margin-bottom: 1400px;
 }
 
 
@@ -231,7 +245,7 @@ margin-left: 70px;
 
 /*footer*/
 .footer{
-    margin-top: 250px;
+    margin-top: 300px;
     text-align: center;
     font-size: large;
     background-color: rgb(3, 15, 24);
