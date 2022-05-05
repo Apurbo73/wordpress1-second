@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registration</title>
     <link rel="stylesheet" href="CSS/style.css">
+    <script src="validation.js"> </script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
@@ -45,31 +46,44 @@
        <!--Registration form-->
 <h5 style="text-align: center;margin-top: 20px;font-size: 50px;">Registration</h5>
       <div class="registration-form">
-        <form action="">
+        <form action="#" method="post" onsubmit="return formvalidation()">
           <table>
             <tr>
              <td><label for="fname">First name:</label></td>
-             <td><input type="text"></td>
+             <td><input type="text" id="ifname">
+            <span id="errorInFirstName" > </span></td>
              </tr>
+
  
              <tr>
                <td><label for="lname">Last name:</label></td>
-               <td style=""><input type="text"></td>
+               <td ><input type="text" id="ilname">
+                <span id="errorInLastName"> </span>
+              </td>
                </tr>
+
+
                <tr>
                  <td><label for="mobile">Mobile Number:</label></td>
                  <td><input type="text"></td>
                  </tr>
+
+
  
                <tr>
                  <td><label for="email">Enter email:</label></td>
                  <td><input type="text"></td>
                  </tr>
+
+
  
                  <tr>
                    <td><label for="pass">Enter Password:</label></td>
-                   <td><input type="password"></td>
+                   <td><input type="password" id="ipass"> <span id="errorInPass"> </span></td>
                    </tr>
+
+
+
                    <tr>
                      <td>
                        <button style="margin-left: 120px;background-color: rgb(42, 230, 198);text-decoration: none;color: azure;">Submit</button>
