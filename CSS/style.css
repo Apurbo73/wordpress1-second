@@ -139,7 +139,8 @@ margin-left: 70px;
     background-color: antiquewhite;
     float: left;
     width: 293.34px;
-    margin-right: 10px;
+    margin-right: 5px;
+    margin-left: 12px;
     padding: 15px;
     margin-bottom: 50px;
     border-radius: 10px;
@@ -188,6 +189,7 @@ margin-left: 70px;
     float:left;
     width: 700px;
     margin-right: 30px;
+    margin-left: 20px;
 
 }
 
@@ -266,17 +268,17 @@ margin-left: 70px;
    background-color: #91b7f0;
    color: white;
    height: 80%;
-   width: 100%;
-   margin-left: 25%;
+   width: 60%;
+   margin-left: 20%;
    border-radius: 10px;
    margin-top: 120px;
    
 }
 .registration-form td{
-    padding-left: 80px;
-    padding-right: 20px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
     border-radius: 5px;
     margin-left: 20px;
     margin-right: 50px;

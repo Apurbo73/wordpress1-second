@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registration</title>
+    <link rel="stylesheet" href="CSS/responsive.css">
+
     <link rel="stylesheet" href="CSS/style.css">
     <script src="validation.js"> </script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -17,13 +19,13 @@
      <div class="container">
        <div class="header fix">
            <div class="logo">
-               <a href="">
+               
                  <!--Header section-->
 
                  <p style="font-weight: 700; font-size: 20px;text-decoration: none;">
                   Edu-Planet
               </p>                   
-               </a>
+              
            </div>
            <div class="menu">
                <ul>
@@ -44,7 +46,7 @@
 
 
        <!--Registration form-->
-<h5 style="text-align: center;margin-top: 20px;font-size: 50px;">Registration</h5>
+<p style="text-align: center;margin-top: 20px;font-size: 40px;">Registration</p>
       <div class="registration-form">
         <form action="#" method="post" onsubmit="return formvalidation()">
           <table>
@@ -83,16 +85,11 @@
                    </tr>
 
 
-                   <tr>
-                    <td><label for="cpass">Confirm Password:</label></td>
-                    <td><input type="password" id="icpass"> <span id="errorInConfirmPass"> </span></td>
-                    </tr>
-
-
+                  
 
                    <tr>
                      <td>
-                       <button style="margin-left: 120px;background-color: rgb(42, 230, 198);text-decoration: none;color: azure;">Submit</button>
+                       <button type="submit">Submit</button>
                      </td>
                    </tr>
 

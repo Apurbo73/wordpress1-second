@@ -119,7 +119,7 @@ function formvalidation() {
 
         //ei portion ta kaj kortese na 
      else {
-        document.getElementById("errorInPass").innerHTML = " ";
+        document.getElementById("errorInPass").innerHTML = "Successfully registered ";
         return false;
 
 
@@ -132,34 +132,9 @@ function formvalidation() {
 
         //ei portion ta kaj kortese na 
 
- var confirmPass = document.getElementById("icpass").value;
-    var confirmPassPattern = /((?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%&*<>?+_-])).{8,20}/
-
-
-    if (confirmPass.length <= 0) {
-        document.getElementById("errorInConfirmPass").innerHTML = "Retype password";
-        return false;
-
-    } else if (!confirmPass.match(confirmPassPattern)) {
-
-        document.getElementById("errorInConfirmPass").innerHTML = " 1 upper case, 1 lower case, 1 digit , 1 special character, at least 8 character";
-
-        return false; }
-
-
-          // Confirm Password validation ends
-
+ 
        
 
 
     }
-
-
-
-
-
-
-
-
-
 

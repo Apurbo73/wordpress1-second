@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
+    <link rel="stylesheet" href="CSS/responsive.css">
+
     <link rel="stylesheet" href="CSS/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
@@ -45,34 +47,38 @@
        <!--login form-->
        <h5 style="text-align: center;margin-top: 20px;font-size: 50px;">login</h5>
 
-
-      <div class="registration-form">
-        <form action="">
+       <div class="registration-form">
+        <form action="#" method="post" onsubmit="return formvalidation()">
           <table>
-            <tr>
-             <td><label for="fname">First name:</label></td>
-             <td><input type="text"></td>
-             </tr>
  
-             <tr>
-               <td><label for="lname">Last name:</label></td>
-               <td><input type="text"></td>
-               </tr>
-               <tr>
-                 <td><label for="mobile">Mobile Number:</label></td>
-                 <td><input type="text"></td>
-                 </tr>
+
+
+             
+
  
                <tr>
                  <td><label for="email">Enter email:</label></td>
-                 <td><input type="text"></td>
+                 <td><input type="email" id="logInemail"> <span id="errorInLogInEmail"> </span></td>
                  </tr>
+
+
  
                  <tr>
                    <td><label for="pass">Enter Password:</label></td>
-                   <td><input type="password"></td>
+                   <td><input type="password" id="ipass"> <span id="errorInPass"> </span></td>
                    </tr>
+
+
+
+
                    <tr>
+                     <td>
+                       <button type="submit">Submit</button>
+                     </td>
+                   </tr>
+
+          
+                  
                      
           </table>
         </form>
