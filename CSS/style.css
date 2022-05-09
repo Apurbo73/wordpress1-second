@@ -250,13 +250,12 @@ margin-left: 70px;
     margin-top: 300px;
     text-align: center;
     font-size: large;
-    background-color: rgb(3, 15, 24);
+    background-color: rgb(239, 253, 253);
     padding: 20px;
-    color: white;
+    color: rgb(48, 45, 45);
     
 }
 .footer a{
-    color: white;
     text-decoration: none;
     margin-bottom: 20px;
 }
