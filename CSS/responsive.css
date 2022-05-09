@@ -1,4 +1,4 @@
-/* Responsiveness with media query*/
+/* Responsiveness with media query */
 @media only screen and (min-width:992px) and (max-width:1200px){
     
 
@@ -9,9 +9,7 @@
     .menu{
         width: 650px;
     }
-    .single-service{
-        width: 280px;
-    }
+ 
     .about-left{
        
         width: 600px;
@@ -19,8 +17,8 @@
     
     }
     .courses-page .single-service{
-        width: 225px;
-        margin-left: 50px;
+        width: 20px;
+        margin-left: 50000px;
     }
     .about-menu h4{
        
@@ -29,88 +27,6 @@
 
   
 
-    }
+    } 
 
-    @media only screen and (min-width:768px) and (max-width:991px){
     
-
-        .area{
-            width: 995px;
-         
-        }
-        .menu{
-            width: 650px;
-        }
-        .single-service{
-            width: 280px;
-        }
-        .about-left{
-           
-            width: 600px;
-           
-        
-        }
-        .about-menu h4{
-           
-          font-size:25px ;      
-        }
-    
-        
-        }
-
-
-
-        @media only screen  and (max-width:767px){
-    
-
-            .area{
-                width: 320px;
-             
-            }
-            .menu{
-                width: 100%;
-            }
-            .menu ul{
-                text-align: left;
-            }
-            .menu ul li{
-                display: block;
-            }
-            .title h5{
-                text-align: center;
-                font-size: 30px;
-                margin: 25px 0;
-            }
-
-            .single-service{
-                width: 85%;
-                margin-bottom: 30px;
-            }
-        .about-left, .about-menu{
-            width: 100%;
-            margin-bottom: 30px;
-        }
-            
-        .footer{
-            margin-top: 700px;
-            width: 100%;
-        }
-
-
-            }
-
-
-            @media only screen  and (min-width:480px)and (max-width:767px){
-
-
-                .area{
-                   width:520px; 
-                }
-            }
-
-
-
-
-
-
-
