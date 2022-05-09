@@ -9,6 +9,11 @@ body{
     background-color: rgb(248, 248, 231);
 }
 
+
+/*Animation starts*/
+
+/*Each keyframe describes how the animated element should render at a given time during the animation sequence. Since the timing of the animation is defined in the CSS style that configures the animation, keyframes use a <percentage> to indicate the time during the animation sequence at which they take place. */
+
 .slider{
     width: 100%;
     height: 400px;
@@ -31,6 +36,7 @@ body{
         background: url(../images/aaa.jpg);
     }
 }
+/*Animation ends*/
 
 
 .area
@@ -290,7 +296,7 @@ margin-left: 70px;
 /*registration form*/
 .registration-form
 {
-   background-color: #91b7f0;
+   background-color: #2b5346;
    color: white;
    height: 80%;
    width: 60%;
