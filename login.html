@@ -9,8 +9,10 @@
     <link rel="stylesheet" href="CSS/fontAwesome.css">
 
     <link rel="stylesheet" href="CSS/style.css">
+    <script src="loginValidation.js"> </script>
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
+  </head>
 <body>
     
    <div class="area">
@@ -49,14 +51,10 @@
        <h1 style="margin-left: 450px;margin-top: 50px;font-size: 50px;">login</h1>
 
        <div class="registration-form">
-        <form action="#" method="post" onsubmit="return formvalidation()">
+        <form action="#" method="post" onsubmit="return logformvalidation()">
           <table>
  
 
-
-             
-
- 
                <div class="login-form">
                 <tr>
                   <td><label for="email">Enter email:</label></td>
@@ -67,7 +65,7 @@
   
                   <tr>
                     <td><label for="pass">Enter Password:</label></td>
-                    <td><input type="password" id="ipass"> <span id="errorInPass"> </span></td>
+                    <td><input type="password" id="logpass"> <span id="errorInPass"> </span></td>
                     </tr>
  
  
@@ -95,13 +93,12 @@
 
  <div class="footer">
   <p class="icon">
-     <a href="https://www.linkedin.com/in/apubdofficial/" target="blank"><p>linkedin</p></a>
+     <a href="https://www.linkedin.com/in/apubdofficial/" target="blank"><p><i class="fa-brands fa-facebook-messenger"></i></i></i></p></a>
       
   </p>
   <p>&copy; Edu-Planet All rights deserve</p>
   
 </div>
-
 
 
 <!--footer ends-->

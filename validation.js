@@ -119,7 +119,7 @@ function formvalidation() {
 
         //ei portion ta kaj kortese na 
      else {
-        document.getElementById("errorInPass").innerHTML = "Successfully registered ";
+        alert("Successfully registered");
         return false;
 
 
@@ -132,9 +132,20 @@ function formvalidation() {
 
         //ei portion ta kaj kortese na 
 
- 
+   //Password validation starts
+
+
+       
        
 
+
+
+
+
+
+
+
+   
 
     }
 
