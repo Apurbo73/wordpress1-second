@@ -8,6 +8,31 @@ body{
     line-height: 22px;
     background-color: rgb(248, 248, 231);
 }
+
+.slider{
+    width: 100%;
+    height: 400px;
+    background: url(../images/acm2.jpg);
+    margin: 0 auto;
+    animation: slide 15s infinite;
+}
+
+@keyframes slide{
+    25%{
+        background: url(../images/acm2.jpg);
+    }
+
+    25%{
+        background: url(../images/acm.jpg);
+    }
+
+ 
+    100%{
+        background: url(../images/aaa.jpg);
+    }
+}
+
+
 .area
 {
     width: 1000px;
