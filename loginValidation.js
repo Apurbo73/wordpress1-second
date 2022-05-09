@@ -9,7 +9,7 @@ function logformvalidation()
 var logInpass= document.getElementById("logpass").value;
 if(logInpass.length==0)
 {
-    alert("no");
+    alert("Enter your password");
     return false;
 }
      else
