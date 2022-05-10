@@ -169,7 +169,7 @@ margin-left: 70px;
 
     background-color: antiquewhite;
     float: left;
-    width: 280.34px;
+    width: 270.34px;
     margin-right: 5px;
     margin-left: 12px;
     padding: 15px;
@@ -184,6 +184,13 @@ margin-left: 70px;
     margin-bottom: 10px;
     font-size: 20px;
     
+
+}
+.single-service :hover{
+
+    width:290px ;
+    transition: width 3s;
+   
 
 }
 
