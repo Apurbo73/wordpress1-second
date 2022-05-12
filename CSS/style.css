@@ -73,9 +73,8 @@ margin-left: 70px;
 }
 
 .button:hover{
-    background-color: rgb(194, 250, 142);
-    transition: .3s;
-    text-transform: uppercase;
+    background-color: rgb(132, 134, 247);
+    transition: .2s;
 }
 
 .container
@@ -150,7 +149,7 @@ margin-left: 70px;
 /*Services*/
 
 .services{
-
+ margin-bottom: 100px;
 }
 
 .title{
@@ -160,8 +159,7 @@ margin-left: 70px;
     text-align: center;
     font-size: 45px;
     text-transform: capitalize;
-    margin: 40px 0;
-    margin-bottom: 40px;
+    margin-bottom: 50px;
     margin-top: 40px;
     color: rgb(91, 158, 247);
 
@@ -174,7 +172,7 @@ margin-left: 70px;
     margin-right: 20px;
     margin-left: 0px;
     padding: 20px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     border-radius: 10px;
     box-shadow: 10px 10px 10px gray;
 
@@ -189,8 +187,7 @@ margin-left: 70px;
 }
 .single-service :hover{
 
-    width:290px ;
-    transition: width 3s;
+  background-color: ;
    
 
 }
@@ -212,7 +209,7 @@ margin-left: 70px;
 }
 .courses-page 
 {
-    margin-bottom: 900px;
+    margin-bottom: 950px;
 }
 
 
@@ -229,6 +226,7 @@ margin-left: 70px;
     width: 580px;
     margin-right: 20px;
     margin-left: 15px;
+    margin-top: 50px;
 
 }
 
@@ -250,6 +248,7 @@ margin-left: 70px;
 .about-menu{
     float: right;
     width:300px;
+    margin-top: 50px;
   
     
 
